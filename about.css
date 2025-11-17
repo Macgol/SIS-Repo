@@ -1,0 +1,600 @@
+body{
+     background-image: url(shalom_pics/transparent\ logo\ 2.png);
+      background-position-x: center;
+     background-repeat: no-repeat;
+     background-size: 1200px;
+     background-attachment: fixed;
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+     background-color: rgba(0, 0, 0, 0.1);
+} 
+
+/* header section */
+
+#head{
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#topheader{
+    height: 5vh;
+    width: 100%;
+    background-color: #4A00E0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+#topheader #socials i{
+    color: white;
+    font-size: 20px;
+}
+#topheader #socials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#topheader #search i{
+    color: white;
+    padding-right: 15px;
+}
+#topheader #search i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#bottomheader{
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#logo a{
+    display: flex;
+    gap: 20px;
+    padding: 8px 0px 0px 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#links{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+#links :hover{
+    color: #3A0CA3;
+}
+#tabs{
+    display: flex;
+    gap: 15px;
+    padding-left: 200px;
+
+}
+#tabs a{
+    text-decoration: none;
+    color: rgb(107, 101, 101);
+    border-right: solid;
+    padding: 0px 10px 0px 0px;
+}
+#tabs a:last-child{
+    border-right: none;
+}
+#portal button{
+padding: 8px 50px;
+color: white;
+background-color: #4A00E0;
+border: none;
+border-radius: 20px;
+}
+
+#portal button:hover{
+    color: white;
+    background-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.09);
+    transition: 0.9s;
+}
+
+/* banner section */
+
+#banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(shalom_pics/student3.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30vh;
+}
+#bannercontents{
+    width: 80%;
+    height: 15vh;
+    background-color: rgba(74, 0, 224, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+#bannercontents h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/* birth section */
+
+.birth{
+    display: flex;
+    padding: 50px 150px;
+    gap: 100px;
+    margin-top: 30px;
+}
+.article1{
+    color: rgba(0, 0, 0, 0.7);
+}
+.article1 strong{
+    color: black;
+}
+.article1 h2{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 550;
+    color: black;
+    padding-bottom: 50px;
+}
+.article1 h3{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: black;
+}
+.picture1{
+    margin-top: 250px;
+}
+
+
+/* formative */
+
+.formative{
+    display: flex;
+    padding: 50px 150px;
+    gap: 100px;
+    margin-top: 40px;
+}
+.article2{
+     color: rgba(0, 0, 0, 0.7);
+}
+.article2 h3{
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: black;
+}
+.picture2{
+    margin-top: 140px;
+}
+
+
+/* stable */
+
+.stable{
+    display: flex;
+    padding: 50px 150px;
+    gap: 100px;
+    margin-top: 40px;
+}
+.article3{
+     color: rgba(0, 0, 0, 0.7);
+}
+.article3 h3{
+     font-size: 2.2rem;
+    font-weight: 500;
+    color: black;
+}
+.picture3{
+   margin-top: 220px; 
+}
+
+
+/* thrive */
+.thrive{
+    display: flex;
+    padding: 50px 150px;
+    gap: 100px;
+    margin-top: 40px;
+}
+.article4{
+    color: rgba(0, 0, 0, 0.7);
+}
+.article4 h3{
+     font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+.picture4{
+  margin-top: 150px;   
+}
+
+/* commitment */
+.commitment{
+   display: flex;
+    padding: 50px 150px;
+    gap: 100px;
+    margin-top: 40px; 
+}
+.article5{
+    color: rgba(0, 0, 0, 0.7);
+}
+.article5 h3{
+       font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+.picture5{
+     margin-top: 130px; 
+}
+
+
+/* corevalues */
+.corevalues{
+    display: flex;
+    padding: 50px 150px;
+    gap: 100px;
+    margin-top: 40px; 
+}
+
+.article6{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.article6 h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.picture6{
+   margin-top: 50px; 
+   margin-left: 70px;  
+}
+
+
+/* lastarticle */
+.matters{
+    display: flex;
+    justify-content: center;
+    padding: 10px 220px;
+}
+.lastarticle{
+    color: rgba(0, 0, 0, 0.7);
+}
+.lastarticle h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.lastarticle strong{
+    color: black;
+    font-size: 1.1rem;
+}
+
+main{
+    padding: 0px 50px;
+}
+
+
+
+/* footer */
+
+
+/* quick links */
+
+#quicklinks{
+     text-align: center;
+    padding: 20px 0px 0px  60px;
+    margin-top: 100px;
+} 
+
+#linkcontainer{
+     display: flex;
+  justify-content: space-evenly;
+  padding: 0px 70px;
+}
+
+.pic{
+    height: 30vh;
+     width: 200px;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 55px;
+     color: rgb(107, 101, 101);
+    border-right: solid 2px;
+    padding: 0px 50px 0px 0px;
+    margin: 20px;
+}
+.pic a:hover{
+     color: #3A0CA3;
+}
+.pic:last-child{
+    border-right: none;
+}
+.pic i{
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.pic a{
+    font-size: 1rem;
+    text-decoration: none;
+     color: #4475AE
+}
+
+
+/* contact section */
+
+#contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: rgba(74, 0, 224, 0.7);
+}
+.headcontact{
+height: 15vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 50px;
+}
+.contactlogo a{
+ display: flex;
+    gap: 20px;
+    /* padding: 8px 0px 0px 60px; */
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.contactsocials i{
+     color: white;
+    font-size: 30px;
+}
+.contactsocials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+.bottomcontact{
+height: 58vh;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+color: white;
+}
+.bottomcontact a{
+    text-decoration: none;
+    color: white;
+}
+.bottomcontact i{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.contactus a{
+    padding-bottom: 10px;
+}
+.contactsearch input{
+padding: 4px 30px;
+border-radius: 10px;
+}
+.contactsearch{
+    margin-top: 50px;
+}
+
+
+/* trademark section */
+hr{
+    border: solid white 1px;
+    width: 90%;
+}
+.trademark{
+display: flex;
+justify-content: space-between;
+padding: 10px 60px;
+color: white;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    /* header section */
+    #logo a{
+         padding: 8px 0px 0px 30px;
+         font-size: 1.3rem;
+    }
+    #logo img{
+        width: 50px;
+        height: 50px;
+    }
+    #links #tabs{
+        display: none;
+    }
+    #links{
+        justify-content: right;
+    }
+    #bottomheader{
+        height: 20vh;
+    }
+
+    /* banner section */
+
+    #banner{
+        margin-top: 25vh;
+         background-size: 805px;
+    }
+    #bannercontents h1{
+        font-size: 2rem;
+    }
+    /*birth section */
+    .birth{
+        flex-direction: column;
+        padding: 0px 15px;
+        gap: 0px;
+        margin-top: 30px;
+    }
+    .picture1{
+        margin-top: 20px;
+    }
+    .article1 h3{
+        font-size: 1.8rem;
+    }
+
+    /* formative section */
+    .formative{
+        flex-direction: column;
+        padding: 0px 15px;
+        gap: 0px;
+    }
+    .article2 h3{
+        font-size: 1.8rem;
+    }
+    .article2{
+        order: -1;
+    }
+    .picture2{
+       margin-top: 20px; 
+    }
+
+    /* stable */
+    .stable{
+        flex-direction: column;
+        padding: 0px 15px;
+        gap: 0px;
+    }
+    .article3 h3{
+       font-size: 1.8rem; 
+    }
+    .article3{
+        order: -1;
+    }
+    .picture3{
+       margin-top: 20px; 
+    }
+
+    /* thrive */
+    .thrive{
+        flex-direction: column;
+        padding: 0px 15px;
+        gap: 0px;
+    }
+    .article4 h3{
+       font-size: 1.8rem; 
+    }
+    .article4{
+        order: -1;
+    }
+    .picture4{
+       margin-top: 20px; 
+    }
+
+    /* commitment */
+    .commitment{
+        flex-direction: column;
+        padding: 0px 15px;
+        gap: 0px;
+    }
+    .article5 h3{
+       font-size: 1.8rem; 
+    }
+    .article5{
+        order: -1;
+    }
+    .picture5{
+       margin-top: 20px; 
+    }
+
+    /* corevalues */
+    .corevalues{
+        flex-direction: column;
+        padding: 0px 15px;
+        gap: 0px;
+    }
+    .article6 h3{
+       font-size: 1.8rem; 
+    }
+    .article6{
+        order: -1;
+    }
+    .picture6{
+       margin-top: 20px; 
+    }
+    /* matters */
+    .matters{
+        flex-direction: column;
+         padding: 0px 15px;
+         margin-top: 90px;
+    }
+    main{
+        padding: 0px 10px;
+    }
+
+    
+     /* footer */
+
+
+     /* quick links */
+
+     #linkcontainer{
+        flex-direction: column;
+        padding: 0;
+     }
+     .pic{
+        border-right: none;
+        border-bottom: solid 2px;
+        padding: 0px 0px 0px 0px;
+     }
+
+     #quicklinks{
+        padding: 0px 60px;
+     }
+
+
+     /* contact section */
+     .headcontact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        
+     }
+     .contactlogo a{
+         padding: 10px 0px 0px 0px;
+         font-size: 1.3rem;
+     }
+     .contactsocials{
+        padding-left: 190px;
+     }
+     .bottomcontact{
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+     }
+
+
+     /* trademark section */
+
+     .trademark{
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+     }
+
+
+}

@@ -1,0 +1,152 @@
+ body{
+     background-image: url(shalom_pics/transparent\ logo\ 2.png);
+      background-position-x: center;
+     background-repeat: no-repeat;
+     background-size: 950px;
+     background-attachment: fixed;
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+     background-color: rgba(0, 0, 0, 0.1);
+} 
+
+/* header section */
+
+#head{
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#topheader{
+    height: 5vh;
+    width: 100%;
+    background-color: #4A00E0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+#topheader #socials i{
+    color: white;
+    font-size: 20px;
+}
+#topheader #socials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#topheader #search i{
+    color: white;
+    padding-right: 15px;
+}
+#topheader #search i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#bottomheader{
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#logo a{
+    display: flex;
+    gap: 20px;
+    padding: 8px 0px 0px 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#links{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+#links :hover{
+    color: #3A0CA3;
+}
+#tabs{
+    display: flex;
+    gap: 15px;
+    padding-left: 200px;
+
+}
+#tabs a{
+    text-decoration: none;
+    color: rgb(107, 101, 101);
+    border-right: solid;
+    padding: 0px 10px 0px 0px;
+}
+#tabs a:last-child{
+    border-right: none;
+}
+#portal button{
+padding: 8px 50px;
+color: white;
+background-color: #4A00E0;
+border: none;
+border-radius: 20px;
+}
+
+#portal button:hover{
+    color: white;
+    background-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.09);
+    transition: 0.9s;
+}
+
+
+
+/* banner section */
+
+#banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(shalom_pics/testimonial\ 4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30vh;
+    position: relative;
+}
+/* .overlay{
+    position: absolute;
+     width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0,0.5);
+    top: 0;
+} */
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#bannercontents{
+    width: 80%;
+    height: 15vh;
+    background-color: rgba(74, 0, 224, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+#bannercontents h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}

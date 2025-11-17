@@ -1,0 +1,587 @@
+ body{
+     background-image: url(shalom_pics/transparent\ logo\ 2.png);
+      background-position-x: center;
+     background-repeat: no-repeat;
+     background-size: 950px;
+     background-attachment: fixed;
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+     background-color: rgba(0, 0, 0, 0.1);
+} 
+
+/* header section */
+
+#head{
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#topheader{
+    height: 5vh;
+    width: 100%;
+    background-color: #4A00E0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+#topheader #socials i{
+    color: white;
+    font-size: 20px;
+}
+#topheader #socials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#topheader #search i{
+    color: white;
+    padding-right: 15px;
+}
+#topheader #search i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#bottomheader{
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#logo a{
+    display: flex;
+    gap: 20px;
+    padding: 8px 0px 0px 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#links{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+#links :hover{
+    color: #3A0CA3;
+}
+#tabs{
+    display: flex;
+    gap: 15px;
+    padding-left: 200px;
+
+}
+#tabs a{
+    text-decoration: none;
+    color: rgb(107, 101, 101);
+    border-right: solid;
+    padding: 0px 10px 0px 0px;
+}
+#tabs a:last-child{
+    border-right: none;
+}
+#portal button{
+padding: 8px 50px;
+color: white;
+background-color: #4A00E0;
+border: none;
+border-radius: 20px;
+}
+
+#portal button:hover{
+    color: white;
+    background-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.09);
+    transition: 0.9s;
+}
+
+/* banner section */
+#banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(shalom_pics/shalom\ front\ view.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+#banner::after{
+content: "";
+position: absolute;
+inset: 0;
+background-image: url(shalom_pics/front\ view\ 3.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+animation: slideshow infinite 20s ease-in-out ;
+z-index: -1;
+}
+@keyframes slideshow {
+    0% { opacity: 0;}
+    40% { opacity: 0;}
+    50% { opacity: 1;}
+    90% { opacity: 1;}
+    100% { opacity: 0;}
+}
+/* 
+#banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(shalom_pics/shalom\ front\ view.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+    position: relative;
+} */
+#bannercontents{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#bannercontents h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+#bannercontents p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+#bannercontents button{
+    padding: 7px 55px;
+    color: white;
+    background-color: #4A00E0;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+#bannercontents button:hover{
+    color: white;
+    background-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.09);
+    transition: 0.9s;
+}
+/* Values Section */
+
+#values{
+    display: flex;
+    width: 80%;
+    gap: 35%;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: -25px;
+}
+#mission{
+  height: 40vh;
+  background-color: #ffffff;
+  border-bottom: 30px solid #4a00e0;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 35px;
+  color: rgb(107, 101, 101);
+}
+#mission:hover{
+    border-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.08);
+    transition: 1S ease-in-out;
+}
+#mission h2{
+    font-weight: 550;
+    color: black;
+}
+#vision{
+    height: 40vh;
+    background-color: #ffffff;
+  border-bottom: 30px solid #4a00e0;
+  border-radius: 20px;
+  text-align: center;
+    line-height: 35px;
+     color: rgb(107, 101, 101);
+}
+#vision:hover{
+    border-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.08);
+    transition: 1S ease-in-out;
+}
+#vision h2{
+    font-weight: 550;
+     color: black;
+}
+
+/* testimonials section */
+
+#testimonials{
+    text-align: center;
+    padding: 20px 0px 0px  60px;
+    margin-top: 100px;
+}
+#testimonials h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+#testimonials-content{
+  display: flex;
+  gap: 15px;
+}
+ #parent{
+     height: 53vh;
+     width: 300px;
+     background-color: white;
+    border-bottom: 20px solid #4A00E0;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+     color: rgb(107, 101, 101);
+}
+#parent:hover{
+      border-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.08);
+    transition: 1S ease-in-out;
+}
+#parent img{
+    width: 290px;
+    height: 30vh;
+    border-radius: 20px;
+}
+#parent #text{
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+}
+
+
+/* gallery section */
+#gallery{
+    text-align: center;
+    margin-top: 150px;
+}
+#gallery h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+#pictures{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+grid-auto-rows: 200px;
+gap: 15px;
+padding: 50px;
+}
+.picture{
+    border: solid;
+    border-radius: 10px;
+}
+.picture:hover{
+    border: none;
+    transform: scale(1.03);
+    transition: .5s ease-in;
+}
+.pic1{
+    background-image: url(shalom_pics/student1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 /span 1;
+    grid-row: 1;
+}
+.pic2{
+    background-image: url(shalom_pics/student3.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1;
+    grid-row: 2;
+}
+.pic3{
+    background-image: url(shalom_pics/student5.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 2;
+}
+.pic4{
+    background-image: url(shalom_pics/student4.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pic5{
+    background-image: url(shalom_pics/student6.jpg);
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 3;
+    grid-row: 2;
+}
+
+
+/* footer */
+
+
+/* quick links */
+
+#quicklinks{
+     text-align: center;
+    padding: 20px 0px 0px  60px;
+    margin-top: 100px;
+} 
+
+#linkcontainer{
+     display: flex;
+  justify-content: space-evenly;
+  padding: 0px 70px;
+}
+
+.pic{
+    height: 30vh;
+     width: 200px;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 55px;
+     color: rgb(107, 101, 101);
+    border-right: solid 2px;
+    padding: 0px 50px 0px 0px;
+    margin: 20px;
+}
+.pic a:hover{
+     color: #3A0CA3;
+}
+.pic:last-child{
+    border-right: none;
+}
+.pic i{
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.pic a{
+    font-size: 1rem;
+    text-decoration: none;
+     color: #4475AE
+}
+
+
+/* contact section */
+
+#contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: rgba(74, 0, 224, 0.7);
+}
+.headcontact{
+height: 15vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 50px;
+}
+.contactlogo a{
+ display: flex;
+    gap: 20px;
+    /* padding: 8px 0px 0px 60px; */
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.contactsocials i{
+     color: white;
+    font-size: 30px;
+}
+.contactsocials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+.bottomcontact{
+height: 58vh;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+color: white;
+}
+.bottomcontact a{
+    text-decoration: none;
+    color: white;
+}
+.bottomcontact i{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.contactus a{
+    padding-bottom: 10px;
+}
+.contactsearch input{
+padding: 4px 30px;
+border-radius: 10px;
+}
+.contactsearch{
+    margin-top: 50px;
+}
+
+
+/* trademark section */
+hr{
+    border: solid white 1px;
+    width: 90%;
+}
+.trademark{
+display: flex;
+justify-content: space-between;
+padding: 10px 60px;
+color: white;
+}
+
+
+
+    
+@media screen and (max-width: 1200px) {
+    
+    /* header section */
+    #logo a{
+         padding: 8px 0px 0px 30px;
+         font-size: 1.3rem;
+    }
+    #logo img{
+        width: 50px;
+        height: 50px;
+    }
+    #links #tabs{
+        display: none;
+    }
+    #links{
+        justify-content: right;
+    }
+    #bottomheader{
+        height: 20vh;
+    }
+
+    /* banner section */
+
+    #banner{
+        margin-top: 25vh;
+    }
+    #bannercontents h1{
+        font-size: 2rem;
+    }
+     #bannercontents p{
+        font-size: 1rem;
+        font-weight: 200;
+     }
+
+     /* values section */
+     #values{
+        flex-direction: column;
+        top: 0;
+        gap: 20px;
+        margin-top: 15px;
+     }
+     /* testimonials section */
+
+     #testimonials{
+     padding: 20px 0px 0px 0px;
+     }
+     #testimonials-content{
+        flex-direction: column;
+        padding-left: 50px;
+     }
+
+     /* gallery section */
+     #pictures{
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 5px;
+     }
+     .pic1{ 
+        grid-row: 1;
+        grid-column: 1;
+     }
+     .pic2{
+        grid-row: 1;
+        grid-column: 2;
+     }
+     .pic3{
+        grid-row: 2 ;
+        grid-column: span 2;
+     }
+     .pic4{
+        grid-row: 3;
+        grid-column: 1;
+     }
+     .pic5{
+        grid-row: 3;
+        grid-column: 2;
+     }
+
+
+
+
+
+     /* footer */
+
+
+     /* quick links */
+
+     #linkcontainer{
+        flex-direction: column;
+        padding: 0;
+     }
+     .pic{
+        border-right: none;
+        border-bottom: solid 2px;
+        padding: 0px 0px 0px 0px;
+     }
+
+     #quicklinks{
+        padding: 0px 60px;
+     }
+
+
+     /* contact section */
+     .headcontact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        
+     }
+     .contactlogo a{
+         padding: 10px 0px 0px 0px;
+         font-size: 1.3rem;
+     }
+     .contactsocials{
+        padding-left: 190px;
+     }
+     .bottomcontact{
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+     }
+
+
+     /* trademark section */
+
+     .trademark{
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+     }
+}

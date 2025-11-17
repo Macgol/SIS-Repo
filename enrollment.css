@@ -1,0 +1,500 @@
+ body{
+     background-image: url(shalom_pics/transparent\ logo\ 2.png);
+      background-position-x: center;
+     background-repeat: no-repeat;
+     background-size: 950px;
+     background-attachment: fixed;
+     margin: 0;
+     padding: 0;
+     font-family: "Poppins", sans-serif;
+     background-color: rgba(0, 0, 0, 0.1);
+} 
+
+/* header section */
+
+#head{
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#topheader{
+    height: 5vh;
+    width: 100%;
+    background-color: #4A00E0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+#topheader #socials i{
+    color: white;
+    font-size: 20px;
+}
+#topheader #socials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#topheader #search i{
+    color: white;
+    padding-right: 15px;
+}
+#topheader #search i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+#bottomheader{
+    height: 25vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#logo a{
+    display: flex;
+    gap: 20px;
+    padding: 8px 0px 0px 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#links{
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+}
+#links :hover{
+    color: #3A0CA3;
+}
+#tabs{
+    display: flex;
+    gap: 15px;
+    padding-left: 200px;
+
+}
+#tabs a{
+    text-decoration: none;
+    color: rgb(107, 101, 101);
+    border-right: solid;
+    padding: 0px 10px 0px 0px;
+}
+#tabs a:last-child{
+    border-right: none;
+}
+#portal button{
+padding: 8px 50px;
+color: white;
+background-color: #4A00E0;
+border: none;
+border-radius: 20px;
+}
+
+#portal button:hover{
+    color: white;
+    background-color: rgba(74, 0, 224, 0.6);
+    transform: scale(1.09);
+    transition: 0.9s;
+}
+
+
+
+/* banner section */
+
+#banner{
+    width: 100%;
+    height: 80vh;
+    background-image: url(shalom_pics/admission\ banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 30vh;
+}
+#bannercontents{
+    width: 80%;
+    height: 15vh;
+    background-color: rgba(74, 0, 224, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+#bannercontents h1{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* welcome section */
+.welcome{
+    display: flex;
+      padding: 50px 250px;
+    gap: 100px;
+    margin-top: 30px;
+}
+.welcome i{
+    font-size: 3rem;
+    color: rgba(128, 128, 128, 0.4);
+}
+
+.bottom1{
+    margin-top: 150px;
+}
+
+/* enrol section */
+.enrol{
+     display: flex;
+      padding: 50px 250px;
+    gap: 100px;
+    margin-top: 30px;
+}
+.enrol i{
+    font-size: 3rem;
+    color: rgba(128, 128, 128, 0.4);
+}
+
+.paperplane{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 250px;
+    font-size: 3rem;
+    color: rgba(128, 128, 128, 0.4);
+}
+
+/* apply section */
+.apply{
+     display: flex;
+      padding: 50px 0px 50px 400px;
+    margin-top: 30px;
+}
+.apply i{
+     font-size: 6rem;
+    color: rgba(128, 128, 128, 0.4);
+    margin-top: 100px;
+}
+
+/* reqirement section */
+.requirement{
+    display: flex;
+      padding: 50px 250px;
+    gap: 100px;
+    margin-top: 30px;
+}
+.requirement i{
+   font-size: 3rem;
+    color: rgba(128, 128, 128, 0.4); 
+}
+.top3{
+    margin-top: 270px;
+}
+
+/* how section */
+.how{
+    display: flex;
+      padding: 50px 0px 50px 250px;
+    margin-top: 30px;
+}
+.how i{
+    font-size: 6rem;
+    color: rgba(128, 128, 128, 0.4);
+    margin-top: 200px;
+    gap: 50px;
+}
+.fees{
+    display: flex;
+      padding: 50px 0px 50px 300px;
+    margin-top: 30px;
+}
+
+/* enrol contact section */
+.contact{
+    display: flex;
+      padding: 50px 250px;
+    gap: 100px;
+    margin-top: 30px;
+}
+.contact i{
+    font-size: 3rem;
+    color: rgba(128, 128, 128, 0.4);
+    margin-top: 120px;
+}
+
+
+
+
+/* footer */
+
+
+/* quick links */
+
+#quicklinks{
+     text-align: center;
+    padding: 20px 0px 0px  60px;
+    margin-top: 100px;
+} 
+
+#linkcontainer{
+     display: flex;
+  justify-content: space-evenly;
+  padding: 0px 70px;
+}
+
+.pic{
+    height: 30vh;
+     width: 200px;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 55px;
+     color: rgb(107, 101, 101);
+    border-right: solid 2px;
+    padding: 0px 50px 0px 0px;
+    margin: 20px;
+}
+.pic a:hover{
+     color: #3A0CA3;
+}
+.pic:last-child{
+    border-right: none;
+}
+.pic i{
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.pic a{
+    font-size: 1rem;
+    text-decoration: none;
+     color: #4475AE
+}
+
+
+/* contact section */
+
+#contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: rgba(74, 0, 224, 0.7);
+}
+.headcontact{
+height: 15vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px 50px;
+}
+.contactlogo a{
+ display: flex;
+    gap: 20px;
+    /* padding: 8px 0px 0px 60px; */
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.contactsocials i{
+     color: white;
+    font-size: 30px;
+}
+.contactsocials i:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+.bottomcontact{
+height: 58vh;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+color: white;
+}
+.bottomcontact a{
+    text-decoration: none;
+    color: white;
+}
+.bottomcontact i{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+.contactus a{
+    padding-bottom: 10px;
+}
+.contactsearch input{
+padding: 4px 30px;
+border-radius: 10px;
+}
+.contactsearch{
+    margin-top: 50px;
+}
+
+
+/* trademark section */
+hr{
+    border: solid white 1px;
+    width: 90%;
+}
+.trademark{
+display: flex;
+justify-content: space-between;
+padding: 10px 60px;
+color: white;
+}
+
+
+
+
+
+
+    
+@media screen and (max-width: 1200px) {
+    
+    /* header section */
+    #logo a{
+         padding: 8px 0px 0px 30px;
+         font-size: 1.3rem;
+    }
+    #logo img{
+        width: 50px;
+        height: 50px;
+    }
+    #links #tabs{
+        display: none;
+    }
+    #links{
+        justify-content: right;
+    }
+    #bottomheader{
+        height: 20vh;
+    }
+
+    /* banner section */
+
+    #banner{
+        margin-top: 25vh;
+    }
+    #bannercontents h1{
+        font-size: 2rem;
+    }
+
+    /* welcome section */
+    .welcome{
+        padding: 10px ;
+        gap: 10px;
+    }
+
+.bottom1{
+    margin-top: 300px;
+}
+
+    /* enrol section */
+    .enrol{
+         padding: 0px ;
+        gap: 10px;
+    }
+
+    .paperplane{
+        padding: 0;
+    }
+    /* apply section */
+    .apply{
+         padding: 0px 5px 0px 70px;
+        gap: 10px;
+    }
+    .apply i{
+        font-size: 4rem;
+    }
+
+    /* requirement section */
+    .requirement{
+          padding: 0px ;
+        gap: 10px;
+    }
+    .top3{
+        margin-top: 350px;
+    }
+
+    /* how section */
+    .how{
+          padding: 0px 50px 0px 0px;
+    
+    }
+    .how i{
+        font-size: 4rem;
+        margin-top: 400px;
+    }
+    /* fees section */
+    .fees{
+        padding: 0px 50px;
+    }
+    /* enrol contact section */
+    .contact{
+        flex-direction: column;
+        padding: 0px 40px;
+        gap: 10px;
+    }
+    .contact i{
+        margin-top: 0;
+    }
+
+    body{
+             background-size: 1100px;
+    }
+
+
+    
+     /* footer */
+
+
+     /* quick links */
+
+     #linkcontainer{
+        flex-direction: column;
+        padding: 0;
+     }
+     .pic{
+        border-right: none;
+        border-bottom: solid 2px;
+        padding: 0px 0px 0px 0px;
+     }
+
+     #quicklinks{
+        padding: 0px 60px;
+     }
+
+
+     /* contact section */
+     .headcontact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        
+     }
+     .contactlogo a{
+         padding: 10px 0px 0px 0px;
+         font-size: 1.3rem;
+     }
+     .contactsocials{
+        padding-left: 190px;
+     }
+     .bottomcontact{
+        flex-direction: column;
+        gap: 20px;
+        height: fit-content;
+     }
+
+
+     /* trademark section */
+
+     .trademark{
+        flex-direction: column;
+        padding: 0;
+        gap: 20px;
+     }
+    }
