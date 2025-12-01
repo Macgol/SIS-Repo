@@ -116,6 +116,15 @@ border-radius: 20px;
     align-items: end;
     margin-top: 30vh;
 }
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 #bannercontents{
     width: 80%;
     height: 15vh;
@@ -136,7 +145,7 @@ border-radius: 20px;
 /* welcome section */
 .welcome{
     display: flex;
-      padding: 50px 250px;
+      padding: 0px 250px;
     gap: 100px;
     margin-top: 30px;
 }
@@ -154,7 +163,6 @@ border-radius: 20px;
      display: flex;
       padding: 50px 250px;
     gap: 100px;
-    margin-top: 30px;
 }
 .enrol i{
     font-size: 3rem;
@@ -172,8 +180,7 @@ border-radius: 20px;
 /* apply section */
 .apply{
      display: flex;
-      padding: 50px 0px 50px 400px;
-    margin-top: 30px;
+      padding: 0px 0px 0px 400px;
 }
 .apply i{
      font-size: 6rem;
@@ -186,7 +193,6 @@ border-radius: 20px;
     display: flex;
       padding: 50px 250px;
     gap: 100px;
-    margin-top: 30px;
 }
 .requirement i{
    font-size: 3rem;
@@ -199,8 +205,7 @@ border-radius: 20px;
 /* how section */
 .how{
     display: flex;
-      padding: 50px 0px 50px 250px;
-    margin-top: 30px;
+      padding: 0px 0px 0px 250px;
 }
 .how i{
     font-size: 6rem;
@@ -210,7 +215,7 @@ border-radius: 20px;
 }
 .fees{
     display: flex;
-      padding: 50px 0px 50px 300px;
+      padding: 0px 0px 0px 300px;
     margin-top: 30px;
 }
 
@@ -219,7 +224,6 @@ border-radius: 20px;
     display: flex;
       padding: 50px 250px;
     gap: 100px;
-    margin-top: 30px;
 }
 .contact i{
     font-size: 3rem;
@@ -320,18 +324,27 @@ color: white;
     color: white;
 }
 .bottomcontact i{
-    font-size: 1.5rem;
+    font-size: 1.rem;
     padding: 5px;
 }
 .contactus a{
     padding-bottom: 10px;
 }
 .contactsearch input{
-padding: 4px 30px;
+padding: 4px 40px 4px 0px;
 border-radius: 10px;
+border: none;
+background-color: transparent;
+color: transparent;
 }
 .contactsearch{
     margin-top: 50px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 10px;
+}
+.contactsearch ::placeholder{
+    color: white;
 }
 
 
@@ -496,5 +509,10 @@ color: white;
         flex-direction: column;
         padding: 0;
         gap: 20px;
+     }
+
+     body{
+        background-size: 1200px;
+        background-position: center;
      }
     }

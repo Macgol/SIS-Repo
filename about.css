@@ -2,7 +2,7 @@ body{
      background-image: url(shalom_pics/transparent\ logo\ 2.png);
       background-position-x: center;
      background-repeat: no-repeat;
-     background-size: 1200px;
+     background-size: 950px;
      background-attachment: fixed;
      margin: 0;
      padding: 0;
@@ -114,6 +114,15 @@ border-radius: 20px;
     align-items: end;
     margin-top: 30vh;
 }
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 #bannercontents{
     width: 80%;
     height: 15vh;
@@ -138,11 +147,11 @@ border-radius: 20px;
     display: flex;
     padding: 50px 150px;
     gap: 100px;
-    margin-top: 30px;
+    margin-top: 0px;
 }
-.article1{
+/* .article1{
     color: rgba(0, 0, 0, 0.7);
-}
+} */
 .article1 strong{
     color: black;
 }
@@ -159,7 +168,7 @@ border-radius: 20px;
     color: black;
 }
 .picture1{
-    margin-top: 250px;
+    margin-top: 80px;
 }
 
 
@@ -167,13 +176,12 @@ border-radius: 20px;
 
 .formative{
     display: flex;
-    padding: 50px 150px;
+    padding: 0px 150px;
     gap: 100px;
-    margin-top: 40px;
 }
-.article2{
+/* .article2{
      color: rgba(0, 0, 0, 0.7);
-}
+} */
 .article2 h3{
     font-size: 2.2rem;
     font-weight: 500;
@@ -188,13 +196,13 @@ border-radius: 20px;
 
 .stable{
     display: flex;
-    padding: 50px 150px;
+    padding: 0px 150px;
     gap: 100px;
-    margin-top: 40px;
+    margin-top: 0px;
 }
-.article3{
+/* .article3{
      color: rgba(0, 0, 0, 0.7);
-}
+} */
 .article3 h3{
      font-size: 2.2rem;
     font-weight: 500;
@@ -208,13 +216,12 @@ border-radius: 20px;
 /* thrive */
 .thrive{
     display: flex;
-    padding: 50px 150px;
+    padding: 0px 150px;
     gap: 100px;
-    margin-top: 40px;
 }
-.article4{
+/* .article4{
     color: rgba(0, 0, 0, 0.7);
-}
+} */
 .article4 h3{
      font-size: 2rem;
     font-weight: 500;
@@ -227,13 +234,12 @@ border-radius: 20px;
 /* commitment */
 .commitment{
    display: flex;
-    padding: 50px 150px;
+    padding: 0px 150px;
     gap: 100px;
-    margin-top: 40px; 
 }
-.article5{
+/* .article5{
     color: rgba(0, 0, 0, 0.7);
-}
+} */
 .article5 h3{
        font-size: 2rem;
     font-weight: 500;
@@ -247,14 +253,14 @@ border-radius: 20px;
 /* corevalues */
 .corevalues{
     display: flex;
-    padding: 50px 150px;
+    padding: 0px 150px;
     gap: 100px;
-    margin-top: 40px; 
+    margin-top: 0px; 
 }
 
-.article6{
+/* .article6{
     color: rgba(0, 0, 0, 0.7);
-}
+} */
 
 .article6 h3{
     font-size: 2rem;
@@ -274,9 +280,9 @@ border-radius: 20px;
     justify-content: center;
     padding: 10px 220px;
 }
-.lastarticle{
+/* .lastarticle{
     color: rgba(0, 0, 0, 0.7);
-}
+} */
 .lastarticle h3{
     font-size: 2rem;
     font-weight: 500;
@@ -289,7 +295,7 @@ border-radius: 20px;
 }
 
 main{
-    padding: 0px 50px;
+    padding: 0px 80px;
 }
 
 
@@ -384,20 +390,28 @@ color: white;
     color: white;
 }
 .bottomcontact i{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 5px;
 }
 .contactus a{
     padding-bottom: 10px;
 }
 .contactsearch input{
-padding: 4px 30px;
+padding: 4px 40px 4px 0px;
 border-radius: 10px;
+border: none;
+background-color: transparent;
+color: transparent;
 }
 .contactsearch{
     margin-top: 50px;
+     border: 1px solid;
+    height: fit-content;
+    border-radius: 10px;
 }
-
+.contactsearch ::placeholder{
+    color: white;
+}
 
 /* trademark section */
 hr{
@@ -596,5 +610,8 @@ color: white;
         gap: 20px;
      }
 
-
+body{
+        background-size: 1200px;
+        background-position: center;
+     }
 }

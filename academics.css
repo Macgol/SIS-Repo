@@ -115,6 +115,15 @@ border-radius: 20px;
     align-items: end;
     margin-top: 30vh;
 }
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 #bannercontents{
     width: 80%;
     height: 15vh;
@@ -257,18 +266,27 @@ color: white;
     color: white;
 }
 .bottomcontact i{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 5px;
 }
 .contactus a{
     padding-bottom: 10px;
 }
 .contactsearch input{
-padding: 4px 30px;
+padding: 4px 40px 4px 0px;
 border-radius: 10px;
+border: none;
+background-color: transparent;
+color: transparent;
 }
 .contactsearch{
     margin-top: 50px;
+    border: 1px solid;
+    height: fit-content;
+    border-radius: 10px;
+}
+.contactsearch ::placeholder{
+    color: white;
 }
 
 
@@ -283,6 +301,7 @@ justify-content: space-between;
 padding: 10px 60px;
 color: white;
 }
+
 
 
 
@@ -390,5 +409,10 @@ color: white;
         flex-direction: column;
         padding: 0;
         gap: 20px;
+     }
+
+     body{
+        background-size: 1200px;
+        background-position: center;
      }
 }
